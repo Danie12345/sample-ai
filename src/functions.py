@@ -10,3 +10,6 @@ def gen_data(n_features, n_values):
     data = pd.DataFrame(features, columns = ["x0", "x1", "x2"])
     data["targets"] = targets
     return data, weights
+
+def get_weighted_sum(feature, weights, bias=bias):
+  return np.dot(feature, weights) + bias
