@@ -13,6 +13,8 @@ To add a dependency run: `python -m pip install DEPENDENCY`
 
 To update requirements.txt run: `python -m pip freeze > requirements.txt`
 
+> For more help see the [docs](https://docs.python.org/3/installing/index.html) on virtual environments and how to install from requirements [here](https://stackoverflow.com/questions/7225900/how-can-i-install-packages-using-pip-according-to-the-requirements-txt-file-from).
+
 ---
 
 ## Author
