@@ -2,4 +2,4 @@ venv
 
 __pycache__
 
-training_loss.png
+loss_data

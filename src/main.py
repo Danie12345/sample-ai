@@ -4,8 +4,8 @@ import pandas as pd
 from functions import gen_data, get_weighted_sum, sigmoid, cross_entropy, update_weights, update_bias
 
 bias = .5
-l_rate = .001
-epochs = 20000
+l_rate = .05
+epochs = 2000
 epoch_loss = []
 data, weights = gen_data(50, 3)
 
@@ -28,4 +28,4 @@ train_model(data, weights, bias, l_rate, epochs)
 
 df = pd.DataFrame(epoch_loss)
 df_plot = df.plot(kind='line', grid=True).get_figure()
-df_plot.savefig('src/assets/training/training_loss.png')
+df_plot.savefig('src/assets/training/loss_data/training_loss3.png')
