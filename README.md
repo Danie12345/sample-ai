@@ -5,7 +5,7 @@
 ---
 
 ## Try it
-To create the virtual environment run: `python -m venv path\to\repo\venv`
+To create the virtual environment run: `python -m venv path\to\repo\venv`. Then run: `.\venv\scripts\activate` to activate the virtual environment. (To deactivate run: `deactivate`.)
 
 To install dependencies from requirements.txt run: `python -m pip install -r requirements.txt`
 
