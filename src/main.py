@@ -3,6 +3,7 @@ import pandas as pd
 from functions import gen_data, get_weighted_sum, sigmoid, cross_entropy
 
 bias = .5
+l_rate = .05
 
 data, weights = gen_data(4, 3)
 

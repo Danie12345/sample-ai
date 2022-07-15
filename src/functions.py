@@ -27,3 +27,6 @@ def update_weights(weights, l_rate, target, prediction, feature):
 		new_w = w + l_rate * (target - prediction) * x
 		new_weights.append(new_w)
 	return new_weights
+
+def update_bias(bias, l_rate, target, prediction):
+	return bias + l_rate * (target - prediction)
