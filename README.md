@@ -1,11 +1,20 @@
 # Sample AI
 
-> This repo is just a practice for making AI in Python 3.9+.
+> This repo is just a practice for making AI in Python 3.10+.
 
 ---
 
+## Prerequisites
+Have Python 3.10+ installed in your system.
+Have git installed in your system.
+
+## Clone repo
+Clone the repo using this command `git clone https://github.com/Danie12345/sample-ai.git`
+
 ## Try it
-To create the virtual environment run: `python -m venv path\to\repo\venv`. Then run: `.\venv\scripts\activate` to activate the virtual environment. (To deactivate run: `deactivate`.)
+Navigate to the repo directory on a new terminal.
+
+To create the virtual environment run: `python -m venv .\venv`. Then run: `.\venv\scripts\activate` to activate the virtual environment. (To deactivate run: `deactivate`.)
 
 To install dependencies from requirements.txt run: `python -m pip install -r requirements.txt`
 
