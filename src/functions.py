@@ -13,3 +13,6 @@ def gen_data(n_features, n_values):
 
 def get_weighted_sum(feature, weights, bias=bias):
   return np.dot(feature, weights) + bias
+
+def sigmoid(w_sum):
+  return 1/(1 + np.exp(-w_sum))
