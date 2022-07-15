@@ -1,3 +1,4 @@
+from hashlib import new
 import numpy as np
 import pandas as pd
 
@@ -19,3 +20,10 @@ def sigmoid(w_sum):
 
 def cross_entropy(target, prediction):
 	return -(target * np.log10(prediction) + (1 + target) * np.log10(1 - prediction))
+
+def update_weights(weights, l_rate, target, prediction, feature):
+	new_weights = []
+	for x, w in zip(feature, weights):
+		new_w = w + l_rate * (target - prediction) * x
+		new_weights.append(new_w)
+	return new_weights
